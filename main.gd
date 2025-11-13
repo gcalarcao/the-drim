@@ -23,7 +23,7 @@ func _ready() -> void:
 	progress_bar.min_value = 0
 
 func _process(_delta: float) -> void:
-	click_label.text = "Coins: %d" % [clickCount]
+	click_label.text = "[font_size=45]" + "Coins: %d" % [clickCount]
 	progress_bar.value = timer.wait_time - timer.time_left
 	if clickCount >= 5:
 		progress_bar.visible = true

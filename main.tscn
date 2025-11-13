@@ -10,61 +10,91 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+metadata/_edit_use_anchors_ = true
+
+[node name="ClickLabel" type="RichTextLabel" parent="UpperControl"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.925
+anchor_right = -0.925
+offset_left = 550.0
+offset_top = 150.0
+offset_right = 750.0
+offset_bottom = 202.00003
+bbcode_enabled = true
+text = "[font_size=45]Coins:"
+scroll_active = false
+autowrap_mode = 0
+autowrap_trim_flags = 0
+metadata/_edit_use_anchors_ = true
 
 [node name="ClickCount" type="Button" parent="UpperControl"]
-layout_mode = 0
-offset_left = 797.0
-offset_top = 537.0
-offset_right = 1009.0
-offset_bottom = 587.0
-rotation = -0.5235988
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 5.95
+anchor_top = 0.525
+anchor_right = 5.95
+anchor_bottom = 0.525
+offset_left = 409.0
+offset_top = 367.0
+offset_right = 569.0
+offset_bottom = 412.0
 text = "Click"
+metadata/_edit_use_anchors_ = true
 
 [node name="StartAutoClick" type="Button" parent="UpperControl"]
-layout_mode = 0
-offset_left = 977.0
-offset_top = 14.0
-offset_right = 1142.3275
-offset_bottom = 95.41858
-rotation = 0.5235988
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.9
+anchor_top = 0.4
+anchor_right = -0.9
+anchor_bottom = 0.4
+offset_left = 683.0
+offset_top = 293.0
+offset_right = 843.0
+offset_bottom = 338.0
 text = "Start auto click"
+metadata/_edit_use_anchors_ = true
 
 [node name="UpgradeAutoClick" type="Button" parent="UpperControl"]
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 8.0
+anchor_top = -6.925
+anchor_right = 8.0
+anchor_bottom = -6.925
 offset_left = 38.0
 offset_top = 586.0
 offset_right = 261.0
-offset_bottom = 617.0
-rotation = -0.7853982
+offset_bottom = 631.0
 text = "Upgrade auto click [5 Coins]"
+metadata/_edit_use_anchors_ = true
 
 [node name="UpgradeClick" type="Button" parent="UpperControl"]
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 6.775
+anchor_top = 1.775
+anchor_right = 6.775
+anchor_bottom = 1.775
 offset_left = 87.0
 offset_top = 317.0
 offset_right = 279.0
-offset_bottom = 348.0
-rotation = 0.5235988
+offset_bottom = 362.0
 text = "Upgrade click [20 Coins]
 "
-
-[node name="ClickLabel" type="RichTextLabel" parent="UpperControl"]
-layout_mode = 0
-offset_left = 223.0
-offset_top = 485.99997
-offset_right = 813.0
-offset_bottom = 538.0
-rotation = -0.2617994
-bbcode_enabled = true
-text = "[font_size=32]Ammount:"
+metadata/_edit_use_anchors_ = true
 
 [node name="ProgressBar" type="ProgressBar" parent="UpperControl"]
-layout_mode = 0
-offset_left = 31.0
-offset_top = 19.0
-offset_right = 1174.7389
-offset_bottom = 46.0
-rotation = 0.2617994
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.925
+anchor_right = -0.925
+offset_left = 395.0
+offset_top = 250.0
+offset_right = 845.0
+offset_bottom = 286.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Timer" type="Timer" parent="UpperControl"]
 
